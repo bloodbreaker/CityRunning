@@ -13,6 +13,7 @@
 		D094C3A01B388977001BE7A9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D094C39F1B388977001BE7A9 /* Images.xcassets */; };
 		D094C3A31B388977001BE7A9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D094C3A11B388977001BE7A9 /* LaunchScreen.xib */; };
 		D094C3AF1B388977001BE7A9 /* CityRunningTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D094C3AE1B388977001BE7A9 /* CityRunningTests.swift */; };
+		D094C3B91B389314001BE7A9 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D094C3B81B389314001BE7A9 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		D094C3A81B388977001BE7A9 /* CityRunningTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CityRunningTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D094C3AD1B388977001BE7A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D094C3AE1B388977001BE7A9 /* CityRunningTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityRunningTests.swift; sourceTree = "<group>"; };
+		D094C3B81B389314001BE7A9 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D094C3B91B389314001BE7A9 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +62,7 @@
 		D094C38A1B388977001BE7A9 = {
 			isa = PBXGroup;
 			children = (
+				D094C3B81B389314001BE7A9 /* CoreLocation.framework */,
 				D094C3951B388977001BE7A9 /* CityRunning */,
 				D094C3AB1B388977001BE7A9 /* CityRunningTests */,
 				D094C3941B388977001BE7A9 /* Products */,
@@ -411,6 +415,7 @@
 				D094C3B41B388977001BE7A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D094C3B51B388977001BE7A9 /* Build configuration list for PBXNativeTarget "CityRunningTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +424,7 @@
 				D094C3B71B388977001BE7A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
